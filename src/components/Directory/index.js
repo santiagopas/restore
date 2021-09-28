@@ -1,5 +1,5 @@
 import React from 'react';
- import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import ShopMen from './../../assets/shopMens.jpg';
 import ShopWomen from './../../assets/shopWomens.jpg';
 import './styles.scss';
@@ -9,7 +9,7 @@ const Directory = props => {
     <div className="directory">
       <div className="wrap">
         <div
-          className="item"
+          className="item1"
           style={{
             backgroundImage: `url(${ShopWomen})`
           }}
@@ -19,7 +19,7 @@ const Directory = props => {
           </Link>
         </div>
         <div
-          className="item"
+          className="item2"
           style={{
             backgroundImage: `url(${ShopMen})`
           }}
